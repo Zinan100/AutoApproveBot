@@ -12,3 +12,5 @@ DATABASE_NAME = environ.get("DATABASE_NAME")
 
 #other
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
+
