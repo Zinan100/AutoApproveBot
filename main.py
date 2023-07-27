@@ -1,4 +1,5 @@
 from pyrogram import Client, filters
+from info import *
 
 Client = app(
   "Auto Req Acceptor Bot",
